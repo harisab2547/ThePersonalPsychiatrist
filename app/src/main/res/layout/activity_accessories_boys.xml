@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/app_background_blue"
+    android:layout_height="match_parent"
+    tools:context=".AccessoriesBoys">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:textColor="#FDC830"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Which Accessories will You Own?"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toTopOf="@id/imageView9"
+        ></TextView>
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="209dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="101dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/boys1" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="217dp"
+        android:layout_height="164dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView11"
+        app:layout_constraintEnd_toStartOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/boys3" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="276dp"
+        android:layout_height="194dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/boys4" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="345dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:srcCompat="@drawable/boys5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background_blue"
+
+    tools:context=".Userdata">
+
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textColor="#FDC830"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:text="Enter Your Credentials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <LinearLayout
+            android:background="@drawable/button_rounded"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="35dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_rounded"
+                android:hint="Name"
+                android:inputType="text"
+                android:paddingLeft="20dp" />
+
+            <EditText
+                android:id="@+id/cell"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_rounded"
+                android:hint="Phone number"
+                android:inputType="number"
+                android:paddingLeft="20dp" />
+
+            <EditText
+
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_rounded"
+                android:hint="age"
+                android:inputType="number"
+                android:paddingLeft="20dp" />
+
+            <EditText
+
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_rounded"
+                android:hint="Gender"
+                android:inputType="text"
+                android:paddingLeft="20dp" />
+
+            <EditText
+
+                android:id="@+id/residence"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_rounded"
+                android:hint="Residence"
+                android:inputType="text"
+                android:paddingLeft="20dp" />
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Submit"
+        android:textColor="#fff"
+        android:background="@drawable/background_for_admin_user_button">
+
+    </Button>
+
+
+</LinearLayout>

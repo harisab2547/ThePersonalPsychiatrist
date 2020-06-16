@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thepersonalpsychiatrist">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/docotor"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/docotor"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AccessoriesGirls"></activity>
+        <activity android:name=".AccessoriesBoys" />
+        <activity android:name=".Nature" />
+        <activity android:name=".pets" />
+        <activity android:name=".ColorClass" />
+        <activity android:name=".picture" />
+        <activity android:name=".StatementActivity" />
+        <activity android:name=".StartActivity" />
+        <activity android:name=".Userdata" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".Login" />
+        <activity android:name=".UserAdmin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background_blue"
+    tools:context=".LoginActivity">
+
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textColor="#FDC830"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:text="Enter Your Credentials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="230dp">
+        <LinearLayout
+            android:background="@drawable/button_rounded"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="35dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/button_rounded"
+                android:layout_width="match_parent"
+                android:hint="Name"
+                android:layout_height="40dp" />
+            <EditText
+                android:inputType="textPassword"
+                android:id="@+id/password"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/button_rounded"
+                android:layout_width="match_parent"
+                android:hint="Password"
+                android:layout_height="40dp" />
+
+            <Button
+                android:id="@+id/signin"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:text="SignIn"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/background_for_admin_user_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
